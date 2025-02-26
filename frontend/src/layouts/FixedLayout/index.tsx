@@ -7,9 +7,9 @@ type FixedLayoutProps = {
 
 const FixedLayout: React.FC<FixedLayoutProps> = ({ children }) => {
   return (
-    <div className='flex flex-col min-h-screen'>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="flex-1 flex flex-col">{children}</main>
+      <main className="flex-1 flex flex-col px-20 py-20">{children}</main>
       <Footer />
     </div>
   );
